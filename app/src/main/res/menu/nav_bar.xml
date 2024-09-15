@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "bottom_bar">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home" android:title="trang chủ" android:icon="@drawable/nav_home"/>
+        <item android:id="@+id/nav_add_friend" android:title="thêm bạn bè" android:icon="@drawable/nav_add_friend"/>
+        <item android:id="@+id/nav_work" android:title="công việc " android:icon="@drawable/nav_work"/>
+        <item android:id="@+id/nav_friend" android:title="bạn bè" android:icon="@drawable/nav_friend"/>
+        <item android:id="@+id/nav_user" android:title="cá nhân" android:icon="@drawable/nav_user"/>
+    </group>
+</menu>
